@@ -1,13 +1,13 @@
 > **Note:** To access all shared projects, get information about environment setup, and view other guides, please visit [Explore-In-HMOS-Wearable Index](https://github.com/Explore-In-HMOS-Wearable/hmos-index).
 
-# How To Make Custom Marker on Map
+# Custom Marker Codelab
 
 This codelab shows how to use custom markers.
 
 # Preview
 
 <div>
-  <img src="media/1.png" width="25%">
+  <img src="screenshots/1.png" width="25%">
 </div>
 
 # Use Cases

@@ -1,4 +1,4 @@
-import { map, mapCommon, MapComponent } from '@kit.MapKit'
+import { map, mapCommon, MapComponent } from '@kit.MapKit';
 
 @Entry
 @Component
@@ -10,21 +10,21 @@ struct Index {
       position: {
         latitude: 41.021111, longitude: 29.004167
       },
-      icon: $r("app.media.flower"),
+      icon: $r('app.media.flower')
     },
     {
       position: {
         latitude: 41.02556492071563, longitude: 28.974127488867722
       },
-      icon: $r('app.media.paperplane'),
+      icon: $r('app.media.paperplane')
     },
     {
       position: {
         latitude: 41.00540315768449, longitude: 28.97681694006958
       },
-      icon: $r('app.media.moon_fill'),
+      icon: $r('app.media.moon_fill')
     }
-  ]
+  ];
 
   build() {
     Stack() {
@@ -43,13 +43,13 @@ struct Index {
               // add markers
 
               for (let i = 0; i < this.markerOptions.length; i++) {
-                await this.mapController?.addMarker(this.markerOptions[i])
+                await this.mapController?.addMarker(this.markerOptions[i]);
               }
-            }
-            this.mapEventManager.on("mapLoad", callback);
+            };
+            this.mapEventManager.on('mapLoad', callback);
           }
         }
-      }).width('100%').height('100%')
-    }
+      }).width('100%').height('100%');
+    };
   }
 }
